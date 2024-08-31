@@ -6,6 +6,7 @@
 """
 import sys
 
+
 def n_q(t_arr, arr, col, i, n):
     """
        n_q - Find all posibles solution for N-queen problem and return it
@@ -39,6 +40,7 @@ def n_q(t_arr, arr, col, i, n):
             t_arr.pop()
 
     return arr
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
